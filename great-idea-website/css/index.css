@@ -72,12 +72,15 @@ header {
 	margin: 0 auto;
 }
 nav {
-	position: relative;
+	position: fixed;
+	top:0;
+	background-color: #59baf7;
+	z-index: 10;
 	display: inline-block;
 	height: 36px;
-	margin: 0 auto;
 	padding-bottom: 10px;
 	width: 600px;
+	margin-bottom: 10px;
 }
 nav a {
 	margin: 12px 12px;
@@ -94,6 +97,7 @@ nav a {
 .container{
 	position: relative;
 	border-bottom: 1px solid gray;
+	margin-top: 36px;
 	margin-bottom: 5%;
 	height: 300px;
 }
@@ -185,8 +189,8 @@ section{
 }
 .middle-img {
 	position: absolute;
-	left: 5%;
-	width: 600px; 
+	margin-left: 6px;
+	width: 595px; 
 	height: 200px; 
 	left: 20%;
 }
