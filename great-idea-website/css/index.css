@@ -72,42 +72,82 @@ header {
 	margin: 0 auto;
 }
 nav {
+	position: relative;
 	display: inline-block;
-	background-color:blue;
 	height: 36px;
 	margin: 0 auto;
 	padding-bottom: 10px;
+	width: 600px;
 }
 nav a {
-	margin: 10px 10px;
+	margin: 12px 12px;
 	text-decoration: none;
-	color: white;
+	color: black;
 	display: inline-block;
-	
+	font-size: 14px;
 }
 .logo {
-	height: 36px;
-	display: inline;
+	position: absolute;
+	height: 30px;
+	right: 0;
+}
+.container{
+	position: relative;
+	border-bottom: 1px solid gray;
+	margin-bottom: 5%;
+	height: 300px;
+}
+.phrase {
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 90%;
 }
 h1 {
+	position: absolute;
 	display:inline-block;
 	font-size: 48px;
-	background-color:red;
-	width:50%;
-	height: 120px;
-	margin-left: 50px;
+	top: 20%;
+	left: 17%;
+	width:60%;
+	text-align: center;
+	font-size: 48px;
 }
 button {
+	position:absolute;
+	left: 40%;
+	bottom: 50%;
+}
+.imageOne {
+	width: 50%;
+	position: absolute;
 	display: inline-block;
-	background-color:green;
+	top: 10%;
+	left: 50%;
+}
+.button {
+	position: absolute;
+	display: inline-block;
+	border: 1px solid black;
+	bottom: 15%;
+	left: 27%; 
+	width: 35%;
+	height: 8%;
+	text-align: center;
+}
+.button p{
+	margin-top: 7px;
+	font-size: 10px;
 }
 img {
-	background-color: purple;
-	display: block;
+	display: inline-block;
 }
-.code {
-	width: 50%
+.imageCode {
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
 }
+
 .middle-img {
 	width: 90%
 }
@@ -115,6 +155,85 @@ section{
 	display: inline-block;
 	width: 40%;
 }
-.partTwo section{
-	width 30%;
+.foldOne {
+	position: relative;
+	height: 150px;
+	font-size: 14px;
+	padding-top: 5%;
+}
+.features {
+	position: absolute;
+	width: 48%;
+	left: 0%;
+	margin-right: 5px;
+}
+
+.about {
+	position: absolute;
+	width: 48%;
+	right: 0%;
+}
+.middle-img {
+	position
+}
+
+.imageTwo {
+	position: :relative;
+	width: 535px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.middle-img {
+	position: absolute;
+	left: 5%;
+	width: 600px; 
+	height: 200px; 
+	left: 20%;
+}
+
+.foldTwo {
+	position: relative;
+	height: 200px;
+	width: 600px;
+	display: inline-block;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+}
+.services {
+	position: absolute;
+	width: 33%;
+}
+.product {
+	position: absolute;
+	width: 33%;
+	right: 33%;
+}
+.vision {
+	position: absolute;
+	width: 33%;
+	right: 0%;
+}
+footer {
+	position: relative;
+	
+}
+.contact {
+	
+	margin-bottom: 20px;
+}
+.contact > p {
+	line-height: 1.5;
+}
+.contact p {
+
+	width: 50%;
+	margin: 5px 0px;
+}
+.copyright {
+	
+	position: absolute;
+	text-align: center;
+	top:90%;
+	margin-bottom: 50px;
+	left: 40%;
 }
